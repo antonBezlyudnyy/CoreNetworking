@@ -25,6 +25,8 @@ public class NetworkManager: NetworkManagerImpl {
         case PATCH
     }
     
+    public init() {}
+    
     public func makeRequest<T: Decodable>(session: URLSession = .shared,
                         url: URL?,
                         method: HTTPMethod = .GET,
