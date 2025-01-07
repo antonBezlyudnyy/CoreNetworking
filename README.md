@@ -1,3 +1,3 @@
 #CoreNetworking
 
-This is lib for network communication.
+This is lib for network communication
